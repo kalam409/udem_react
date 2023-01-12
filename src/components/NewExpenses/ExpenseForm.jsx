@@ -14,11 +14,11 @@ const ExpenseForm = () => {
           </div>
           <div className="new-expense__control">
             <label for="fname">Date</label>
-            <input type="date" min="01-10-2019" max="2022-12-31" />
+            <input type="date" min="2019-10-01" max="2022-12-31" />
           </div>
-          {/* <div className="new-expense__actions">
+          <div className="new-expense__actions">
             <button type="submit">Add Expense</button>
-          </div> */}
+          </div>
         </div>
       </form>
     );
