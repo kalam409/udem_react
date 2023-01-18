@@ -1,0 +1,7 @@
+.heroTitle{
+background: linear-gradient(to right, #F81F01 0%, #ee076e 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 100px;
+font-family: 'Montserrat', sans-serif;
+}
