@@ -1,0 +1,23 @@
+.about{
+    padding-top: 30px;
+    color: rgba(198,201,216,.75);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about img{
+    width: 420px;
+    height: 550px;
+    border-radius: 10px;
+}
+.aboutText{
+    padding-left: 60px;
+    padding-right: 40px;
+    font-weight: 300;
+}
+.aboutText h2{
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+}

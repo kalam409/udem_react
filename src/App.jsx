@@ -4,17 +4,20 @@ import Header from './components/trydoRainbowit/Header/Header';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './components/trydoRainbowit/Pages/Home/Home';
 import About from './components/trydoRainbowit/Pages/About/About';
+import Pages from './components/trydoRainbowit/Pages/Pages';
 
 const App = () => {
   return (
     <>
-      <BrowserRouter>
+      {/* <BrowserRouter>
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
+      <Header />
+      <Pages />
     </>
   );
 };
