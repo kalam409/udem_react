@@ -3,9 +3,9 @@ import HeroOne from './HeroSection/HeroOne/HeroOne';
 import './Home.css';
 const Home = () => {
     return (
-        <>
-            <HeroOne />
-        </>
+      <>
+        <HeroOne />
+      </>
     );
 };
 
