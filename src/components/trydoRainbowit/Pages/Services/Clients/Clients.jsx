@@ -71,17 +71,9 @@ const Clients = () => {
     <div className="mt-5">
       <div className="mt-5 mb-5">
         <section>
-          {/* {
-                clients.map((client) => (
-                    <div className="container">
-                        <h3 className="comment__desc text-center">{client.desc}</h3>
-                        <p className="mt-5 mb-5 text-center comment__author">{client.author}</p>
-                    </div>
-                ))
-            } */}
             {
                 desc && <div className="container">
-                <h3 className="comment__desc text-center">{desc} </h3>
+                <h3 className="comment__desc text-center">{desc}</h3>
                 <p className="mt-5 mb-5 text-center comment__author">
                   Author
                 </p>
