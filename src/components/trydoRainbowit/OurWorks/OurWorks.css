@@ -1,0 +1,13 @@
+.work{
+    color: rgba(198,201,216,.75);
+    /* display: flex; */
+}
+.work h1{
+    color: white;
+    font-size: 54px;
+    font-weight: 700;
+}
+.work__list{
+    padding-right: 45rem;
+    font-size: 18px;
+}

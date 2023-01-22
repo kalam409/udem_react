@@ -1,0 +1,19 @@
+.client__button{
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+.client__button:hover{
+    background-color: rgba(255, 255, 255, 0);
+}
+.client__button img{
+    border-radius: 4px;
+}
+.comment__desc{
+    color: white;
+    font-size: 28px;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+.comment__author{
+    color: rgba(198,201,216,.75);
+}

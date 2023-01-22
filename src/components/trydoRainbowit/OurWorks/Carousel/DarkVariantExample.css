@@ -1,0 +1,14 @@
+.slide h4{
+    color: white;
+}
+.slide p{
+    /* color: rgba(198,201,216,.75); */
+    color: white;
+}
+.click:hover{
+    background-color: #f9004d;
+}
+.click{
+    background-color: #ee076e;
+    border: none;
+}

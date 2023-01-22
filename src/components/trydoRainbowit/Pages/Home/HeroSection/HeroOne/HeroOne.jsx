@@ -22,15 +22,15 @@ const HeroOne = () => {
     },
   ])
     return (
-      <div>
+      <div className='container mt-5'>
         <h1 className="heroTitle">A DIGITAL AGENCY.</h1>
-        <section>
+        <section className='mt-5'>
           <article className='projects'>
             {
               projects.map((project) => 
               <div key={project.id}>
                 <img src={project.image} alt="" />
-                <h3>{project.title}</h3>
+                <h3 className='mt-4'>{project.title}</h3>
                 <p>{project.desc}</p>
               </div>
               )

@@ -1,0 +1,22 @@
+.our__fun{
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+    /* text-align: center; */
+}
+.count_one{
+    color: #f9004d;
+    font-size: 72px;
+    font-weight: 700;
+}
+.count_plus{
+    color: #f9004d;
+    font-size: 52px;
+    font-weight: 700;
+}
+.desc{
+    font-size: 18px;
+    color: rgba(198,201,216,.75);
+    padding-left: 2rem;
+    padding-right: 2rem;
+}

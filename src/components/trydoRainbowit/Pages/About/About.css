@@ -1,5 +1,4 @@
 .about{
-    padding-top: 30px;
     color: rgba(198,201,216,.75);
     display: flex;
     justify-content: space-between;
@@ -20,4 +19,7 @@
     font-size: 50px;
     font-weight: 700;
     color: white;
+}
+.about__list{
+    display: flex;
 }
