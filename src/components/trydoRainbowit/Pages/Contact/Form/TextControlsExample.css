@@ -1,0 +1,15 @@
+.contact__desc{
+    color: #c6c9d8;
+    font: 22px;
+    line-height: 30px;
+}
+.submit__button{
+    background-color: #d63384;
+    border: none;
+    width: 180px;
+    height: 50px;
+    font-weight: 600;
+}
+.submit__button:hover{
+    background-color: #dc3545;
+}

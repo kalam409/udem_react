@@ -60,32 +60,32 @@ const Clients = () => {
       author: "JON CUMMINS - COO, AMERIMAR ENTERPRISES, INC.",
     },
   ]);
-  const [desc, setDesc] = useState()
+  const [desc, setDesc] = useState();
+  const [author, setAuthor] = useState();
   const clickHandler = (id) => {
-    const filter = clients.filter(obj=>obj.id === id);
+    const filter = clients.filter((obj) => obj.id === id);
     setDesc(filter[0].desc);
   };
 
-  console.log('desc', desc);
+  const authorHandler = (id) => {
+    const filter = clients.filter((obj) => obj.id === id);
+    setAuthor(filter[0].author);
+  };
+
+  // console.log('desc', desc);
   return (
     <div className="mt-5">
       <div className="mt-5 mb-5">
         <section>
-            {
-                desc && <div className="container">
-                <h3 className="comment__desc text-center">{desc}</h3>
-                <p className="mt-5 mb-5 text-center comment__author">
-                  Author
-                </p>
-              </div>
-            }
-      
+          <div className="container">
+            <h3 className="comment__desc text-center">{desc}</h3>
+            <p className="mt-5 mb-5 text-center comment__author">{author}</p>
+          </div>
         </section>
       </div>
       <div className="mt-5 d-flex justify-content-evenly">
         {clients.map((client, i) => (
-          // <button><img src={client.image} alt="" /></button>
-          <div>
+          <div onClick={() => authorHandler(client.id)}>
             <Button
               key={i}
               className="client__button align-item-center"
